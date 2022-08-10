@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2018",
+      "dom",
+      "es5"
+    ],
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "declaration": false,
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "compiled",
+    "watch": false,
+    "listFiles": true,
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ]
+}
